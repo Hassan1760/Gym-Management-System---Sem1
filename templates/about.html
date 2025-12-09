@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>FlexZone Gym</title>
+</head>
+<body>
+  <nav>
+    <h1>FlexZone | Built with US</h1>
+    <ul>
+      <li><a href="{{ url_for('home') }}">Home</a></li>
+      <li><a href="{{ url_for('about') }}">About Us</a></li>
+      <li><a href="{{ url_for('membership') }}">Membership</a></li>
+    </ul>
+  </nav>
+  <section class="about">
+    <h2>About FlexZone</h2>
+    <p>
+      Welcome to The 90's GYM | Built with US — where passion meets performance. Our goal is to
+      help you build the best version of yourself through strength, focus, and
+      consistency.
+    </p>
+    <p>
+      With world-class equipment, professional trainers, and a motivating
+      atmosphere, we guarantee results — whether you are a beginner or a pro.
+    </p>
+    <div class="facilities">
+      <div class="facility">
+        <h3>🏋️ Strength Training</h3>
+        <p>Build muscle with state-of-the-art machines and free weights.</p>
+      </div>
+      <div class="facility">
+        <h3>🔥 Cardio Zone</h3>
+        <p>Stay fit with our latest treadmills, cycles, and HIIT workouts.</p>
+      </div>
+      <div class="facility">
+        <h3>🧘 Yoga & Recovery</h3>
+        <p>Relax and rejuvenate with yoga, stretching, and recovery rooms.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    © FlexZone | Built with US
+  </footer>
+</body>
+</html>

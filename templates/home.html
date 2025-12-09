@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>FlexZone Gym</title>
+</head>
+<body>
+  <nav>
+    <h1>Flex FlexZone</h1>
+    <ul>
+      <li><a href="{{ url_for('home') }}">Home</a></li>
+      <li><a href="{{ url_for('about') }}">About Us</a></li>
+      <li><a href="{{ url_for('membership') }}">Membership</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Transform Your Body, Transform Your Life</h1>
+    <p>Join the #1 Fitness Destination — Strength. Power. Passion.</p>
+    <a href="membership.html"><button class="btn">Join Now</button></a>
+  </section>
+
+  <footer>
+    © FlexZone | Built with US
+  </footer>
+</body>
+</html>

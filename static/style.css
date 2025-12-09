@@ -1,0 +1,165 @@
+/* == Global Styles == */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color:white;
+  color: #fff;
+  line-height: 1.6;
+}
+/* == Navbar == */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 20px 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav h1 {
+  font-size: 28px;
+  color: #ff4500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ff4500;
+}
+/* == Hero Section == */
+.hero {
+  height: 78vh;
+  background: url('https://tse4.mm.bing.net/th/id/OIP.2W3eacggUz-tP_OTEeTi0wHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3')
+    no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 60px;
+  color: #ff4500;
+  text-shadow: 2px 2px 8px #000;
+}
+.hero p {
+  font-size: 22px;
+  margin: 20px 0;
+  color: #ddd;
+}
+.btn {
+  background: #ff4500;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #fff;
+  color: #111;
+}
+/* == About Section == */
+.about {
+  padding: 80px 100px;
+  background: white;
+}
+.about h2 {
+  color: #ff4500;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.about p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.facilities {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.facility {
+  background: #1f1f1f;
+  padding: 25px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  transition: 0.3s;
+}
+.facility:hover {
+  transform: translateY(-10px);
+  background: #222;
+}
+.facility h3 {
+  color: #ff4500;
+  margin-bottom: 10px;
+}
+/* == Membership == */
+.membership {
+  padding: 80px 100px;
+  background: white;
+}
+.membership h2 {
+  color: #ff4500;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plan-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.plan {
+  background: gray;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  transition: 0.3s;
+}
+.plan:hover {
+  transform: scale(1.05);
+  background: black;
+}
+.plan h3 {
+  color: #ff4500;
+  margin-bottom: 15px;
+}
+.plan p {
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 24px;
+  color: #fff;
+  margin: 20px 0;
+}
+/* == Footer == */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #111;
+  color: #aaa;
+  font-size: 14px;
+}

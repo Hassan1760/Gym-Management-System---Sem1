@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership - The 90's GYM | Built with US</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!-- Navbar -->
+<nav>
+  <h1>FlexZone | Built with US</h1>
+  <ul>
+    <li><a href="{{ url_for('home') }}">Home</a></li>
+    <li><a href="{{ url_for('about') }}">About Us</a></li>
+    <li><a href="{{ url_for('membership') }}">Membership</a></li>
+  </ul>
+</nav>
+<!-- Membership Section -->
+<section class="membership">
+  <h2>Membership Plans</h2>
+  <div class="plan-container">
+    {% for plan in plans %}
+    <div class="plan">
+      <h3>{{ plan.name }}</h3>
+      {% for feature in plan.features %}
+      <p>{{ feature }}</p>
+      {% endfor %}
+      <div class="price">{{ plan.price }}</div>
+      <button class="btn">Join Now</button>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- Footer -->
+<footer>
+  © The 90's Gym | Built with US
+</footer>
+</body>
+</html>
+
+
