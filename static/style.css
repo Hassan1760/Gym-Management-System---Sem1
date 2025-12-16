@@ -79,7 +79,7 @@ nav a:hover {
 /* == About Section == */
 .about {
   padding: 80px 100px;
-  background: white;
+  background: rgb(30, 29, 29);
 }
 .about h2 {
   color: #ff4500;
@@ -98,7 +98,7 @@ nav a:hover {
   margin-top: 30px;
 }
 .facility {
-  background: #1f1f1f;
+  background: black;
   padding: 25px;
   border-radius: 12px;
   width: 250px;
@@ -116,7 +116,7 @@ nav a:hover {
 /* == Membership == */
 .membership {
   padding: 80px 100px;
-  background: white;
+  background: rgb(30, 29, 29);
 }
 .membership h2 {
   color: #ff4500;
@@ -131,7 +131,7 @@ nav a:hover {
   flex-wrap: wrap;
 }
 .plan {
-  background: gray;
+  background: black;
   padding: 30px;
   border-radius: 15px;
   width: 300px;
@@ -140,7 +140,7 @@ nav a:hover {
 }
 .plan:hover {
   transform: scale(1.05);
-  background: black;
+  background: gray;
 }
 .plan h3 {
   color: #ff4500;
