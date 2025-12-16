@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav>
-    <h1>Flex FlexZone</h1>
+    <h1>Home - The 90's GYM | Lets build strength</h1>
     <ul>
       <li><a href="{{ url_for('home') }}">Home</a></li>
       <li><a href="{{ url_for('about') }}">About Us</a></li>
@@ -21,11 +21,11 @@
   <section class="hero">
     <h1>Transform Your Body, Transform Your Life</h1>
     <p>Join the #1 Fitness Destination — Strength. Power. Passion.</p>
-    <a href="membership.html"><button class="btn">Join Now</button></a>
+    <a href="{{ url_for('membership') }}"><button class="btn">Join Now</button></a>
   </section>
 
   <footer>
-    © FlexZone | Built with US
+    © The 90's GYM | Lets build strength
   </footer>
 </body>
 </html>
